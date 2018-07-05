@@ -15,5 +15,6 @@ def reverse_each_word(sentence1)
     sentence1.each_with_index do |name, index|
       puts "#{index+1} #{name}"
     end
+    reverse.join(" ")
   end
   
