@@ -11,8 +11,6 @@ def reverse_each_word(sentence1)
 #   end
 #   reversed.join(" ")
 # end
-dwarfs.each_with_index do | name , index |
-    puts "#{index + 1} #{name}"
     
     sentence1.each_with_index do |name, index|
       puts "#{index+1} #{name}"
